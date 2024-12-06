@@ -1,13 +1,13 @@
+ import avatarImage from '../../Assets/your-avatar.jpg.webp';
 import { Avatar, Box, chakra, Flex, Icon, SimpleGrid, useColorModeValue, } from '@chakra-ui/react';
 
 const testimonials = [
     {
-        name: 'Hardik Desai',
+        name: 'Anshita Tripathi',
         role: 'Frontend Web Developer',
         content:
             'This quiz web app is built using React JS. It can allow the user to select the criteria for their quiz from a list of options. The user can then proceed to answer the questions in the quiz and their performance will be tracked and shown in the scoreboard. Moreover, the app can be designed to be responsive and user-friendly.',
-        avatar:
-            'https://avatars.githubusercontent.com/u/87645745?v=4',
+            avatar: avatarImage,
     }
 ];
 
